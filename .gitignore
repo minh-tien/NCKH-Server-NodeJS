@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+.vscode/
+config-origin.json
+thong-bao-tdc-firebase-adminsdk-4a5rn-8d91338a2b.json

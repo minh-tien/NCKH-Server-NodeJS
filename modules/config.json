@@ -1,0 +1,39 @@
+{
+    "defRequest": {
+        "uri": "http://online.tdc.edu.vn",
+        "home": "ctl00$lbtHome",
+        "get": {
+            "targetHead": "ctl00$ContentPlaceHolder1$ctl00$ctl00$ctl00$ctl00$grvNewsgroup$ctl",
+            "targetTail": "$lblMessageSubject"
+        }
+    },
+    "defCheerio": {
+        "index": {
+            "tag": "input",
+            "id": [
+                "__VIEWSTATE",
+                "__VIEWSTATEGENERATOR",
+                "__EVENTVALIDATION"
+            ]
+        },
+        "mess": {
+            "tag": "span",
+            "id": {
+                "MessageSubject": "ContentPlaceHolder1_ctl00_ctl00_ctl00_ctl00_lblMessageSubject",
+                "Date": "ContentPlaceHolder1_ctl00_ctl00_ctl00_ctl00_lblDate",
+                "MessageNote": "ContentPlaceHolder1_ctl00_ctl00_ctl00_ctl00_lblMessageNote",
+                "MessageBody": "ContentPlaceHolder1_ctl00_ctl00_ctl00_ctl00_lblMessageBody",
+                "SenderName": "ContentPlaceHolder1_ctl00_ctl00_ctl00_ctl00_lblSenderName"
+            }
+        }
+    },
+    "defMongoDB": {
+        "url": "mongodb://xxx",
+        "mess": "mess",
+        "info": "info",
+        "fb": "feedback"
+    },
+    "defFCM": {
+        "topic": "/topics/tdc"
+    }
+}
